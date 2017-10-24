@@ -872,7 +872,7 @@ typedef NS_ENUM(NSInteger, BEMInternalTags)
     if (self.positionYAxisRight) {
         center = CGPointMake(positionOnXAxis, self.frame.size.height - lRect.size.height/2);
     } else {
-        center = CGPointMake(positionOnXAxis, self.frame.size.height - lRect.size.height/2);
+        center = CGPointMake(positionOnXAxis, self.frame.size.height - lRect.size.height + 5);
     }
     
     CGRect rect = labelXAxis.frame;
